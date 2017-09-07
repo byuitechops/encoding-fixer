@@ -23,9 +23,11 @@ fs.readFile("L1MC.csv", function (err, data) {
 
 
     var nastyChars = hexArray
+    //conver the hex to base 10 (ascii)
     .map(function (hex) {
         return parseInt(hex, 16);
     })
+    //filter out know acceptable characters (ascii)
     .filter(function (hex) {
         if ((hex >= 65 && hex <= 90) || (hex >= 97 && hex <= 122) || (hex >= 48 && hex <= 57) || (hex >= 91 && hex <= 95)) {
             return false;
@@ -33,9 +35,11 @@ fs.readFile("L1MC.csv", function (err, data) {
             return true;
         }
     })
+    //unique the results
     .filter(function(item, i, daList){
         return i == daList.indexOf(item);
     })
+    //convert value back to to base 16 (hex)
     .map(function(item){
         return item.toString(16);
     });
