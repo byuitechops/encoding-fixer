@@ -1,0 +1,481 @@
+bad chars count: 26
+bad Chars: [{
+        char: {
+            base10: 9,
+            base16: '9',
+            char: '\t'
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S4MC.csv']
+    },
+    {
+        char: {
+            base10: 128,
+            base16: '80',
+            char: '€',
+            replace: '€',
+            bad: true //did not check very deep
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R2FP.csv']
+    },
+    {
+        char: {
+            base10: 133,
+            base16: '85',
+            char: '…',
+            replace: '...',
+            bad: true //does not show up
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W4MC.csv']
+    },
+    {
+        char: {
+            base10: 145,
+            base16: '91',
+            char: '‘',
+            replace: "'",
+            bad: true //does not show up
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W4MC.csv']
+    },
+    {
+        char: {
+            base10: 146,
+            base16: '92',
+            char: '’',
+            replace: "'",
+            bad: true //does not show up
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W4MC.csv']
+    },
+    {
+        char: {
+            base10: 147,
+            base16: '93',
+            char: '“',
+            replace: '"',
+            bad: true //does not show up
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W4MC.csv']
+    },
+    {
+        char: {
+            base10: 148,
+            base16: '94',
+            char: '”',
+            replace: '"',
+            bad: true //does not show up
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W4MC.csv']
+    },
+    {
+        char: {
+            base10: 149,
+            base16: '95',
+            char: '•',
+            replace: '&middot;',
+            bad: true //does not show up
+
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S4MC.csv']
+    },
+    {
+        char: {
+            base10: 150,
+            base16: '96',
+            char: '–',
+            replace: '-',
+            bad: true //does not show up
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W4MC.csv']
+    },
+    {
+        char: {
+            base10: 151,
+            base16: '97',
+            char: '—',
+            replace: '-',
+            bad: true //does not show up
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W4MC.csv']
+    },
+    {
+        char: {
+            base10: 160,
+            base16: 'a0',
+            char: '&nbsp;',
+            replace: ' ' //didn't check not sure what to do ... maybe leave alone
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W3MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W4MC.csv']
+    },
+    {
+        char: {
+            base10: 161,
+            base16: 'a1',
+            char: '¡',
+            replace: "&iexcl;" // does not show up replace with string
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv']
+    },
+    {
+        char: {
+            base10: 172,
+            base16: 'ac',
+            char: '¬',
+            replece: '' // weird rows of these just remove
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv']
+    },
+    {
+        char: {
+            base10: 176,
+            base16: 'b0',
+            char: '°',
+            replace: "&deg;" //doesnt show up
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv']
+    },
+    {
+        char: {
+            base10: 179,
+            base16: 'b3',
+            char: '³',
+            replace: "&sup3;" //didnt check
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L2FP.csv']
+    },
+    {
+        char: {
+            base10: 183,
+            base16: 'b7',
+            char: '·',
+            replace: "&middot;" //didnt check
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W1MC.csv']
+    },
+    {
+        char: {
+            base10: 185,
+            base16: 'b9',
+            char: '¹',
+            replace: "&sup1;" //didnt check
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L2FP.csv']
+    },
+    {
+        char: {
+            base10: 188,
+            base16: 'bc',
+            char: '¼',
+            replace: "1/4" //doesnt show up
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L3MC.csv']
+    },
+    {
+        char: {
+            base10: 189,
+            base16: 'bd',
+            char: '½',
+            replace: "1/2"
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv']
+    },
+    {
+        char: {
+            base10: 190,
+            base16: 'be',
+            char: '¾',
+            replace: "3/4"
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv']
+    },
+    {
+        char: {
+            base10: 225,
+            base16: 'e1',
+            char: 'á'
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W4FP.csv']
+    },
+    {
+        char: {
+            base10: 227,
+            base16: 'e3',
+            char: 'ã'
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L2MC.csv']
+    },
+    {
+        char: {
+            base10: 233,
+            base16: 'e9',
+            char: 'é'
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R2FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L2MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S4MC.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W1MC.csv']
+    },
+    {
+        char: {
+            base10: 234,
+            base16: 'ea',
+            char: 'ê'
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv',
+       'C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W4MC.csv']
+    },
+    {
+        char: {
+            base10: 239,
+            base16: 'ef',
+            char: 'ï'
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv']
+    },
+    {
+        char: {
+            base10: 241,
+            base16: 'f1',
+            char: 'ñ'
+        },
+        files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv']
+    }]

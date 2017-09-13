@@ -1,48 +1,47 @@
 /*eslint-env node*/
-/*eslint no-console:0*/
+/*eslint no-console:0, no-unused-vars:0*/
 
-var fs = require('fs');
+var fs = require('fs'),
+    asyncLib = require('async');
 
-function getFileName() {
-    return [
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\L1FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\L2FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\L3FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\L4FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\R1FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\R2FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\R3FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\R4FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\S1FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\S2FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\S3FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\S4FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\W1FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\W2FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\W3FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files\W4FP.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\L1MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\L2MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\L3MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\L4MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\R1MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\R2MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\R3MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\R4MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\S1MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\S2MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\S3MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\S4MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\W1MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\W2MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\W3MC.csv",
-        "C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\MC CSV files\csv files\W4MC.csv"
+var fileNames = [
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L1FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L2FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L3FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L4FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R1FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R2FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R3FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\R4FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S1FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S2FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S3FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\S4FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W1FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W2FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W3FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\W4FP.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L1MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L2MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L3MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\L4MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R1MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R2MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R3MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\R4MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S1MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S2MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S3MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\S4MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W1MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W2MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W3MC.csv",
+        "C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\MC CSV files\\csv files\\W4MC.csv"
     ];
-}
+
 
 function listBadChars(fileName, callback) {
-
-    fs.readFile("./csvFiles/MC CSV files/csv files/L1MC.csv", function (err, data) {
+    fs.readFile(fileName, function (err, data) {
         if (err) {
             console.error(err);
             return;
@@ -103,16 +102,66 @@ function listBadChars(fileName, callback) {
 
 
 
-        console.log("bad chars count:", nastyChars.length);
-        console.log("bad Chars:\n", nastyChars);
+        //console.log("bad chars count:", nastyChars.length);
+        //console.log("bad Chars:\n", nastyChars);
 
         callback(null, {
             fileName: fileName,
-            nastyChars: nastyChars
+            nastyChars: nastyChars,
+            nastyCharsCount: nastyChars.length
         });
     });
 
 }
+
+asyncLib.map(fileNames, listBadChars, function (error, files) {
+    //concat to one list
+    /*    var allNasty = data.reduce(function (allNasty, file) {
+                return allNasty.concat(file.nastyChars);
+            }, [])
+            //remove dups
+            .filter(function (nasty, i, list) {
+                var indexOfMatch = list.findIndex(function (item) {
+                    return item.base10 === nasty.base10;
+                });
+
+                return indexOfMatch === i;
+
+            })
+            .sort(function (a, b) {
+                return a.base10 - b.base10;
+            });*/
+
+    var allNasty = files.reduce(function (allNasty, file) {
+            file.nastyChars.forEach(function (nastyChar) {
+                var onListIndex = allNasty.findIndex(function (item) {
+                    return item.char.base10 === nastyChar.base10;
+                });
+
+                //if on list
+                if (onListIndex > -1) {
+                    allNasty[onListIndex].files.push(file.fileName);
+                } else {
+                    //not on list
+                    allNasty.push({
+                        char: nastyChar,
+                        files: [file.fileName]
+                    });
+                }
+            });
+
+
+            return allNasty;
+        }, [])
+        .sort(function (a, b) {
+            return a.char.base10 - b.char.base10;
+        });
+
+
+    console.log("bad chars count:", allNasty.length);
+    console.log("bad Chars:\n", allNasty);
+
+});
 
 
 

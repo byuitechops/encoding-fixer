@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/byuitechops/encoding-fixer/issues"
   },
-  "homepage": "https://github.com/byuitechops/encoding-fixer#readme"
+  "homepage": "https://github.com/byuitechops/encoding-fixer#readme",
+  "dependencies": {
+    "async": "^2.5.0"
+  }
 }

@@ -1,3 +1,4 @@
 *.csv
 csvFiles/
 *.zip
+node_modules/
