@@ -1,22 +1,23 @@
 {
-  "name": "encoding-fixer",
-  "version": "1.0.0",
-  "description": "fix some encoding for some csvs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/byuitechops/encoding-fixer.git"
-  },
-  "author": "Joshua McKinney",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/byuitechops/encoding-fixer/issues"
-  },
-  "homepage": "https://github.com/byuitechops/encoding-fixer#readme",
-  "dependencies": {
-    "async": "^2.5.0"
-  }
+    "name": "encoding-fixer",
+    "version": "1.0.0",
+    "description": "fix some encoding for some csvs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "findChars": 'C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files>grep -Prn "\xbc" *.csv'
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/byuitechops/encoding-fixer.git"
+    },
+    "author": "Joshua McKinney",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/byuitechops/encoding-fixer/issues"
+    },
+    "homepage": "https://github.com/byuitechops/encoding-fixer#readme",
+    "dependencies": {
+        "async": "^2.5.0"
+    }
 }
