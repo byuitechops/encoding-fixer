@@ -30,7 +30,7 @@ bad Chars: [{
             base10: 133,
             base16: '85',
             char: '…',
-            replace: '...',
+            replace: '&hellip;',
             bad: true //does not show up
         },
         files: ['C:\\Users\\kitchen\\Documents\\Josh\\encoding-fixer\\csvFiles\\FP CSV files\\csv files\\L1FP.csv',

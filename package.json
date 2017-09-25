@@ -4,8 +4,7 @@
     "description": "fix some encoding for some csvs",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "findChars": 'C:\Users\kitchen\Documents\Josh\encoding-fixer\csvFiles\FP CSV files\csv files>grep -Prn "\xbc" *.csv'
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
